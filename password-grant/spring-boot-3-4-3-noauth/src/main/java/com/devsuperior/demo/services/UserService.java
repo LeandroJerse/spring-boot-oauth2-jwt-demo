@@ -18,6 +18,8 @@ public class UserService implements UserDetailsService {
     @Autowired
     private UserRepository userRepository;
 
+
+    //Interessante para casos many to many
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
 
